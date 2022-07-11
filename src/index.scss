@@ -14,3 +14,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.table-component{
+  overflow:auto;
+  width: 100%;
+  background-color: #070b12 ;
+  max-height: 500px !important;
+}
+
+.table-component::-webkit-scrollbar {
+  width: 6px !important;
+}
+
+.table-component::-webkit-scrollbar:horizontal{
+  height: 6px;
+}
+
+/* Track */
+.table-component::-webkit-scrollbar-track {
+  background: #192439 !important; 
+  border-radius: 50px;
+}
+ 
+/* Handle */
+.table-component::-webkit-scrollbar-thumb {
+  background: #1BA8C7 !important; 
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+.table-component::-webkit-scrollbar-thumb:hover {
+  background: #0fa1c2  !important; 
+}
+
+.box{
+  background-color: #121927 !important ;
+  width: 80px !important;
+  height: 80px !important;
+  border-radius: 4px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box>h1{
+  font-size: 17px;
+  color: lightgray;
+}
+
+.header{
+  color: white;
+}
+
+.desc>h1,.desc-head>h1{
+font-size: 16px !important;
+}
